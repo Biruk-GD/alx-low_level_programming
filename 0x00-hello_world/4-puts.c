@@ -1,5 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
+puts(""programming is like building a multilingual puzzle\n")
 
 
-puts("Programming is like building a multilingual puzzle"\n);
+
 
