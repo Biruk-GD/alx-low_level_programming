@@ -1,0 +1,2 @@
+#!/bin/bash
+echo gcc c.c -o c.s
