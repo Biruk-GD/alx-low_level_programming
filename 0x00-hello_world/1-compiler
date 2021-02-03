@@ -1,2 +1,2 @@
 #!/bin/bash
-echo gcc -s $CFILE main.o
+gcc -s $CFILE main.o
