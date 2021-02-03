@@ -1,2 +1,2 @@
 #!/bin/bash
-echo gcc -E $CFILE c_cpp 
+gcc -E $CFILE c_cpp 
