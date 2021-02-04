@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
 for (char ch = 'a'; ch <= 'z'; ++ch)
 {
