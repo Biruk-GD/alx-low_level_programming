@@ -1,14 +1,21 @@
 #include <stdio.h>
-#include <ctype.h>
+/**
+ * main -entry point
+ * Return: always 0 (success)
+ */
 
 
 int main(void)
 {
-for (int x = 'a', x != 'e', x != 'q'; x <= 'z'; x++)
+char x;
+for (x = 'a'; x <= 'z'; x++)
 {
-x = tolower(x);
-putchar(x);
-putchar(\n);
+if (x == 'q' || x == 'e')
+{
+x++;
 }
+putchar(x);
+}
+putchar('\n');
 return (0);
 }
