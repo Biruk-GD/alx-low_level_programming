@@ -1,19 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
 
-/*
- *main-Entry point
- *
- *Return:Always 0 (Success)
+/**
+ * main - entry point
+ * Return: always 0 (Success)
  */
+
 int main(void)
 {
-char x;
-for (char ch = 'a'; ch <= 'z'; ch++)
+char lower;
+char upper;
+
+for (lower = 'a'; lower <= 'z'; lower++)
 {
-char lower_ch = tolower(ch);
-putchar(lower_ch);
+putchar(lower);
 }
+for (upper = 'A'; upper <= 'Z'; upper++)
+{
+putchar(upper);
+}
+putchar('\n');
 return (0);
 }
