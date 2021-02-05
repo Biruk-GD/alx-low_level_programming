@@ -1,10 +1,15 @@
 #include<stdio.h>
-main()
+/**
+ *main - entry point
+ *Return: always 0 (success)
+ */
+int main(void)
 {
-int a = 0;
-while (a < 10)
+int num;
+for (num < 0; num < 10; num++)
 {
-printf("%d", a);
-a = a + 1;
+printf("%d", num);
 }
+printf("n");
+return (0);
 }
