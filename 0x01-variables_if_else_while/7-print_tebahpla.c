@@ -1,14 +1,17 @@
 #include <stdio.h>
-#include <ctype.h>
 
+/**
+ *main - entry point
+ *Return: always 0 (success)
+ */
 
 int main(void)
 {
-for (int x = 'a'; x <= 'z'; ++x)
+char x;
+for (x = 'z'; x >= 'a'; x--)
 {
-x = tolower(x);
 putchar(x);
-putchar(\n);
 }
+putchar('\n');
 return (0);
 }
