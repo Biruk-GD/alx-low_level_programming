@@ -5,8 +5,9 @@
  * Return: always 0 (success)
  */
 
-int main(void)
+int main (void)
 {
-_putchar("Holberton\n");
-return (0);
+_putchar(H);
+return;
 }
+
