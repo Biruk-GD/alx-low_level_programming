@@ -9,3 +9,6 @@ void print_alphabet_x10(void);
 
 /*is it lowercase*/
 int _islower(int c);
+
+/*is it alphabete?*/
+int _isalpha(int c);
