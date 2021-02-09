@@ -18,3 +18,15 @@ int print_sign(int n);
 
 /*absolute value*/
 int _abs(int);
+
+/*print last digit*/
+int print_last_digit(int)
+
+/*every minute of the day starting from 00:000 t0 23:59*/
+void jack_bauer(void)
+
+/* 9 times table*/
+void times_table(void)
+
+/*add two integers and return result*/
+int add(int, int);
