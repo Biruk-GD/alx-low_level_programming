@@ -15,3 +15,6 @@ int _isalpha(int c);
 
 /*isign of a number*/
 int print_sign(int n);
+
+/*absolute value*/
+int _abs(int);
