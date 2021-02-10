@@ -1,20 +1,19 @@
-#ifndef HOLBERTON_H
 #include "holberton.h"
-#endif
+
+
 /**
- * main - entry point
+ * print_alphabet - prints alphabet in lowercase
  * Return: always 0 (success)
  */
 
 void print_alphabet(void)
 
 {
-char x;
-
-for (x = 'a'; x <= 'z'; x++)
+char lc = 'a';
+while (lc <= 'z')
 {
-_putchar(x);
+_putchar(lc);
+lc++;
 }
 _putchar('\n');
-
 }
