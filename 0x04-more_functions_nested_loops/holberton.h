@@ -15,3 +15,6 @@ int _putchar(char);
 
 /*Do not print 2 and 4*/
 void print_most_numbers(void);
+
+/*10 times the numbers, from 0 to 14*/
+void more_numbers(void);
