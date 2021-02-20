@@ -1,6 +1,6 @@
 
 /*_putchar*/
-int _putchar(char);
+int _putchar(char c);
 
 /*#0 */
 void reset_to_98(int *n);
