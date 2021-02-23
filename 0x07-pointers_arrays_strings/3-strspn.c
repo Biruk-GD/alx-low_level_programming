@@ -3,7 +3,7 @@
 /**
  * _strspn - gets the length of a prefix substring.
  * @s: A pointer
- * @c: a pointer
+ * @accept: a pointer
  * Return: memory
  */
 
