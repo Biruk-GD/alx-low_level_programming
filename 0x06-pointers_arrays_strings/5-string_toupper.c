@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- * *string_toupper - changes all lowercase letters of a string to uppercase.
- * @a : checked int
- * @b : checked int
+ * *string_toupper - changes all lowercase letters of a string to uppercase
+ * @s : checked char
  * Return: always 0 (success)
  */
 
