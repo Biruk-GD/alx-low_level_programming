@@ -21,7 +21,6 @@ char *rot13(char *s)
 			if (src[j] == *(s + i))
 			{
 				*(s + i) = dest[j];
-	   
 				break;
 			}
 		}
