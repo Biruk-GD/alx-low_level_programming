@@ -1,0 +1,1 @@
+This directory contains two tasks under project, x09. C - Static libraries
