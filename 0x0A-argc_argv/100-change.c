@@ -11,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int change, num;
+
 	change = 0;
 	if (argc == 2)
 	{
@@ -27,7 +28,7 @@ int main(int argc, char *argv[])
 			}
 			for (; num >= 5; change++)
 			{
-				num = num -5;
+				num = num - 5;
 			}
 			for (; num >= 2; change++)
 			{
