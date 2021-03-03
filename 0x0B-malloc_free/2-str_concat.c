@@ -10,31 +10,40 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int s1_len, s2_len, idx, i, j;
-	char *newstr = malloc((sizeof(s1_len) + sizeof(s2_len)) + 1);;
+	char *s;
+	int len1, len2 = 0, index, index2;
 
-	for (i = 0; s1[i]; i++)
-        {
-                s1_len++;
-        }
-
-	for (j = 0; s2[j]; j++)
-        {
-                s2_len++;
-        }
-	for (idx = 0; idx < s1_len; idx++)
+	if (s1 == 0)
 	{
-		newstr[idx] = s1[idx];
+		s1 = "";
 	}
-	for (idx = 0; idx < s2_len; idx++)
+	if (s2 == 0)
         {
-                newstr[idx + s1_len] = s2[idx];
+                s2 = "";
         }
-	newstr = malloc((sizeof(s1_len) + sizeof(s2_len)) + 1);
-	if (newstr == NULL)
+	len1 = 0;
+	while (*(s1 + len1))
+	{
+		len1++;
+	}
+	len2++;
+	while (*(s2 + len2))
         {
-                return (NULL);
+                len2++;
         }
-	newstr[s1_len + s2_len] = 0;
-	return (newstr);
+	s = malloc(sizeof(char) * (len1 + len2 + 1));
+	if (s == 0)
+	{
+		return (0);
+	}
+	for (index = 0; index < len1; index++)
+	{
+		*(s + index) = *(s1 + index);
+	}
+	for (index2 = 0; index2 < len2; index2++, index++)
+        {
+                *(s + index) = *(s2 + index2);
+        }
+	*(s + (len1 + len2)) = '\0';
+	return (s);
 }
