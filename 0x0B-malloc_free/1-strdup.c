@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 /**
- * *create_array - creates an array of chars, and initialize
- * @size: checked int
- * @c : checked char
+ * *_strdup - function that returns a pointer to a newly allocated space
+ * @str : checked pointer
  * Return: 0
  */
 
@@ -14,7 +13,7 @@ char *_strdup(char *str)
 	char *dup;
 	char *p;
 
-	dup = (char *)malloc (sizeof(char)*(n + 1));
+	dup = (char *)malloc(sizeof(char) * (n + 1));
 
 	if (str == NULL || dup == NULL)
 	{
